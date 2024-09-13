@@ -1,0 +1,29 @@
+<p class="primeiro">{{name}}</p>
+<button (click)="troca()" >BUTÃO</button>
+
+<div class="img"> 
+    <br>
+    <img [src] = 'image01'>
+</div>
+<hr>
+<button 
+
+type="button" 
+[disabled] = "isDisabled" 
+(click) = "alerta()"> 
+    Trigger Message
+
+</button>
+
+<hr>
+<button 
+
+type="button" 
+[disabled] = "isDisabled" 
+(click) = "alerta()" *ngIf = "isActive"> 
+    Trigger Message
+
+</button>
+
+<hr>
+
